@@ -9,7 +9,7 @@ With this meteor plugin, TypeScript files (ending is .ts) are automatically comp
 ## What's included?
 
 * Transparent compilation of Typescript assets on the Meteor platform.
-* Libraries such as **meteor.d.ts** or **node.d.ts** are not bundled with the project (ie. ), please grab them from [https://github.com/meteor-typescript/meteor-typescript-libs](https://github.com/meteor-typescript/meteor-typescript-libs).
+* Libraries such as **meteor.d.ts** or **node.d.ts** are not bundled with the package, please grab them from [https://github.com/meteor-typescript/meteor-typescript-libs](https://github.com/meteor-typescript/meteor-typescript-libs).
 * Sample demos built around Meteor+TypeScript can be found in the **samples** folder.
 
 ## Install
@@ -51,7 +51,7 @@ The options which are not considered are declaration, project, watch (file chang
 
 ## Credits
 
-* A TypeScript compiler that used in this package provided by the [ts-compilers](https://github.com/barbatus/ts-compilers).
+* A TypeScript compiler that used in this package provided by [ts-compilers](https://github.com/barbatus/ts-compilers).
 
 ## Updates
 * **Nov 1st 2015** - Compiler module changed to support Meteor 1.2.x
